@@ -10,6 +10,8 @@
 
 
 ### Рабочие заметки: </br>
+Настройка LocalPersistentVolume: https://serveradmin.ru/hranilishha-dannyh-persistent-volumes-v-kubernetes/ </br>
+Система в k8s: https://www.digitalocean.com/community/tutorials/how-to-set-up-an-elasticsearch-fluentd-and-kibana-efk-logging-stack-on-kubernetes-ru </br>
 `yum install nfs-utils nfs-utils-lib -y` - для монтирования nfs в Centos7 </br>
 `mount.nfs 10.10.1.10:/var/nfs /mnt` </br>
-Система в k8s: https://www.digitalocean.com/community/tutorials/how-to-set-up-an-elasticsearch-fluentd-and-kibana-efk-logging-stack-on-kubernetes-ru </br>
+
