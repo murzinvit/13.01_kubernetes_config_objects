@@ -7,3 +7,7 @@
 база данных — через statefulset.  </br>
 
 ### Задание 2: подготовить конфиг для production окружения: </br>
+
+
+### Рабочие заметки: </br>
+`yum install nfs-utils nfs-utils-lib -y` - для монтирования nfs в Centos7 </br>
