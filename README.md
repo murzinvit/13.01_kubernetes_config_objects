@@ -11,3 +11,4 @@
 
 ### Рабочие заметки: </br>
 `yum install nfs-utils nfs-utils-lib -y` - для монтирования nfs в Centos7 </br>
+`mount.nfs 10.10.1.10:/var/nfs /mnt` </br>
