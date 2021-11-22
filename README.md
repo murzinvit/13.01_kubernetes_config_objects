@@ -14,7 +14,11 @@ Volume: </br>
 ![kuber_volume_pvc](https://github.com/murzinvit/screen/blob/fec2dee77f055bce28fc061b2f2d27082b86bdd1/Kuber_volume_pvc_2Gb.jpg) </br>
 
 ### Задание 2: подготовить конфиг для production окружения: </br>
-
+Yaml: [make_deployment_app.yaml](https://github.com/murzinvit/13.01_kubernetes_config_objects/blob/361ba17eefda03c87515921a474531fa9997f2af/make_deployment_app.yaml) </br>
+Результат:</br>
+![apps_in_deployment](https://github.com/murzinvit/screen/blob/99b8d61f2f8ec35a586831c0261dcd48920c7978/Kuber_apps_in_deployment.jpg) </br>
+Вывод в браузер: </br>
+[Kuber_apps_in_deployment](https://github.com/murzinvit/screen/blob/59c76c5d411463ff830ba6302ab92381e6171d08/Kuber_apps_in_deployment.jpg) </br>
 
 ### Рабочие заметки: </br>
 Настройка LocalPersistentVolume: https://serveradmin.ru/hranilishha-dannyh-persistent-volumes-v-kubernetes/ </br>
