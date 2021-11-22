@@ -1,0 +1,25 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: netology-devops6-app
+  namespace: stage
+spec:
+  restartPolicy: Never
+  volumes:
+  - name: db-storage
+    persistentVolumeClaim:
+      claimName: fileshare
+  containers:
+  - name: backend
+    image: murzinvit/backend:latest
+    imagePullPolicy: IfNotPresent
+  - name: db
+    image: murzinvit/db:latest
+    imagePullPolicy: IfNotPresent
+    volumeMounts:
+    - name: db-storage
+      mountPath: /var/lib/
+  - name: frontend
+    image: murzinvit/frontend:latest
+    imagePullPolicy: IfNotPresent
