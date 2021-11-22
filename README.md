@@ -18,7 +18,7 @@ Yaml: [make_deployment_app.yaml](https://github.com/murzinvit/13.01_kubernetes_c
 Результат:</br>
 ![apps_in_deployment](https://github.com/murzinvit/screen/blob/99b8d61f2f8ec35a586831c0261dcd48920c7978/Kuber_apps_in_deployment.jpg) </br>
 Вывод в браузер: </br>
-[Kuber_apps_in_deployment](https://github.com/murzinvit/screen/blob/59c76c5d411463ff830ba6302ab92381e6171d08/Kuber_apps_in_deployment.jpg) </br>
+![Kuber_apps_in_deployment](https://github.com/murzinvit/screen/blob/59c76c5d411463ff830ba6302ab92381e6171d08/Kuber_apps_in_deployment.jpg) </br>
 
 ### Рабочие заметки: </br>
 Настройка LocalPersistentVolume: https://serveradmin.ru/hranilishha-dannyh-persistent-volumes-v-kubernetes/ </br>
