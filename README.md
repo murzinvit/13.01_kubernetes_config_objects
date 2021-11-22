@@ -8,8 +8,10 @@
 Перед выполнением поднял NFS сервер, и использовал NFS шару для statefulset </br>
 Создание volume: [make_volume.yaml](https://github.com/murzinvit/13.01_kubernetes_config_objects/blob/2faeb6595706843e6738eebd7d609e18469e368e/make_volume.yaml) </br>
 Запуск 3 контейнеров в 1 поде: [make_pod3.yaml](https://github.com/murzinvit/13.01_kubernetes_config_objects/blob/2faeb6595706843e6738eebd7d609e18469e368e/make_pod3.yaml)</br>
-Результат:(посмотреть содерзимое пода можно командой - `kubectl describe pod`) </br>
+Результат:(посмотреть содержимое пода можно командой - `kubectl describe pod`) </br>
 ![3_image_in_1_pod](https://github.com/murzinvit/screen/blob/f3a37036707de1cf615f9c3ae9fe890e4f86ff23/Kuber_3_image_in_1_pod.jpg) </br>
+Volume: </br>
+![kuber_volume_pvc](https://github.com/murzinvit/screen/blob/ab2a04162e8db1c258a90ee599b15f2b0f32ad5b/Kuber_volume_pvc.jpg) </br>
 
 ### Задание 2: подготовить конфиг для production окружения: </br>
 
