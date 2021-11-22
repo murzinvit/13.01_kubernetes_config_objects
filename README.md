@@ -22,4 +22,5 @@ Volume: </br>
 `yum install nfs-utils nfs-utils-lib -y` - для монтирования nfs на нодах кластера k8s </br>
 `mount.nfs 10.10.1.10:/var/nfs /mnt` </br>
 Volumes in deployment: https://akomljen.com/kubernetes-persistent-volumes-with-deployment-and-statefulset/ </br>
+Хороший пример: https://support.huaweicloud.com/intl/en-us/usermanual-cce/cce_01_0269.html </br>
 
