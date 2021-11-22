@@ -11,7 +11,7 @@
 Результат:(посмотреть содержимое пода можно командой - `kubectl describe pod`) </br>
 ![3_image_in_1_pod](https://github.com/murzinvit/screen/blob/f3a37036707de1cf615f9c3ae9fe890e4f86ff23/Kuber_3_image_in_1_pod.jpg) </br>
 Volume: </br>
-![kuber_volume_pvc](https://github.com/murzinvit/screen/blob/ab2a04162e8db1c258a90ee599b15f2b0f32ad5b/Kuber_volume_pvc.jpg) </br>
+![kuber_volume_pvc](https://github.com/murzinvit/screen/blob/fec2dee77f055bce28fc061b2f2d27082b86bdd1/Kuber_volume_pvc_2Gb.jpg) </br>
 
 ### Задание 2: подготовить конфиг для production окружения: </br>
 
