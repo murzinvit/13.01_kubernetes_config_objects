@@ -17,8 +17,11 @@ Volume: </br>
 Yaml: [make_deployment_app.yaml](https://github.com/murzinvit/13.01_kubernetes_config_objects/blob/361ba17eefda03c87515921a474531fa9997f2af/make_deployment_app.yaml) </br>
 Результат:</br>
 ![apps_in_deployment](https://github.com/murzinvit/screen/blob/99b8d61f2f8ec35a586831c0261dcd48920c7978/Kuber_apps_in_deployment.jpg) </br>
+Результат 2: </br>
+![Kuber_all_service_run](https://github.com/murzinvit/screen/blob/c7191758b84d5b2afd7aa5f193b2f5579885fbf7/Kuber_all_service_run.jpg) </br>
 Вывод в браузер: </br>
 ![Kuber_apps_in_deployment](https://github.com/murzinvit/screen/blob/00922e1690b028e8569d9b32b55803f225ede755/Kuber_up_app_result_nginx.jpg) </br>
+
 
 ### Рабочие заметки: </br>
 Настройка LocalPersistentVolume: https://serveradmin.ru/hranilishha-dannyh-persistent-volumes-v-kubernetes/ </br>
