@@ -5,7 +5,9 @@
 под содержит в себе 3 контейнера — фронтенд, бекенд, базу;  </br>
 регулируется с помощью deployment фронтенд и бекенд;  </br>
 база данных — через statefulset.  </br>
-yaml для запуска 3 контейнеров в 1 поде: </br>
+Перед выполнением поднял NFS сервер, и использовал NFS шару для statefulset </br>
+Создание volume: [make_volume.yaml](https://github.com/murzinvit/13.01_kubernetes_config_objects/blob/2faeb6595706843e6738eebd7d609e18469e368e/make_volume.yaml) </br>
+Запуск 3 контейнеров в 1 поде: [make_pod3.yaml](https://github.com/murzinvit/13.01_kubernetes_config_objects/blob/2faeb6595706843e6738eebd7d609e18469e368e/make_pod3.yaml)</br>
 Результат:(посмотреть содерзимое пода можно командой - `kubectl describe pod`) </br>
 ![3_image_in_1_pod](https://github.com/murzinvit/screen/blob/f3a37036707de1cf615f9c3ae9fe890e4f86ff23/Kuber_3_image_in_1_pod.jpg) </br>
 
