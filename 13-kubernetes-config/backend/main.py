@@ -24,7 +24,7 @@ app.add_middleware(
 )
 
 DATABASE_URL = os.environ.get('DATABASE_URL',
-                              'postgres://postgres:postgres@db:5432/news')
+                              'postgres://postgres:postgres@db-service:5432/news')
 
 database = databases.Database(DATABASE_URL)
 
