@@ -29,7 +29,9 @@ Yaml: [make_deployment_app.yaml](https://github.com/murzinvit/13.01_kubernetes_c
 Настройка LocalPersistentVolume: https://serveradmin.ru/hranilishha-dannyh-persistent-volumes-v-kubernetes/ </br>
 Система в k8s: https://www.digitalocean.com/community/tutorials/how-to-set-up-an-elasticsearch-fluentd-and-kibana-efk-logging-stack-on-kubernetes-ru </br>
 `yum install nfs-utils nfs-utils-lib -y` - для монтирования nfs на нодах кластера k8s </br>
-`mount.nfs 10.10.1.10:/var/nfs /mnt` </br>
+`mount.nfs 10.10.1.111:/var/nfs /mnt` </br>
+showmount -a </br>
+exportfs -a </br>
 Volumes in deployment: https://akomljen.com/kubernetes-persistent-volumes-with-deployment-and-statefulset/ </br>
 Хороший пример: https://support.huaweicloud.com/intl/en-us/usermanual-cce/cce_01_0269.html </br>
 
